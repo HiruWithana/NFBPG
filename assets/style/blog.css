@@ -1,0 +1,102 @@
+.blogTitle-grid {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.blogIntro-grid {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+
+.pagination .page-link.active {
+    z-index: 1 !important;
+}
+
+
+.pagination a:focus,
+.pagination a:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+}
+
+.page-item:first-child .page-link {
+    border-radius: 0 !important;
+}
+
+.page-item:last-child .page-link {
+    border-radius: 0 !important;
+}
+
+
+
+
+.pagination .page-item {
+    background-color: #3d251e;
+    border: 1px solid #3d251e;
+    border-radius: 0;
+}
+
+.pagination .page-link {
+    color: #3d251e;
+    border-radius: 0;
+    border: 1px solid #3d251e;
+
+}
+
+.pagination .page-link.active {
+    background-color: #3d251e;
+    border: 1px solid #3d251e;
+
+    color: white;
+    border-radius: 0;
+}
+
+
+/* single Blog page */
+.singleBlogSection p {
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(20, 20, 20);
+}
+
+.singleBlogSection h1 {
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(17, 17, 17);
+}
+
+.floatCard {
+    background-color: #F1F2FA;
+}
+
+.floatIcon {
+    margin-top: -30px;
+}
+
+.text-18 {
+    font-size: 19px;
+    line-height: 32px;
+}
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+
+    /* single Blog page */
+    .blogSection p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+}

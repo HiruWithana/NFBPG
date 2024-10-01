@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Bartender Association</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/fav.png">
+
+    <!-- main font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- playFair -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="../assets/style/nav.css">
+    <link rel="stylesheet" href="../assets/style/footer.css">
+    <link rel="stylesheet" href="../assets/style/index.css">
+    <link rel="stylesheet" href="../assets/style/general.css">
+    <link rel="stylesheet" href="../assets/style/blog.css">
+
+
+
+
+
+
+</head>
+
+<body class="bg-white">
+
+    <!-- navigation -->
+    <header id="header"
+        class="container-fluid px-md-5 py-2 primary-header d-flex justify-content-between align-items-center">
+
+        <!-- logo -->
+
+
+        <!-- toggle button -->
+        <button class="mobile-nav-toggle rounded-pill px-3 py-2" aria-controls="primary-navigation"
+            aria-expanded="false">
+            Menu
+        </button>
+
+        <!-- navbar -->
+        <nav class="pt-2 d-flex gap-5 px-md-5">
+
+            <div class="">
+                <a href="index.html">
+                    <img id="logo" src="../assets/images/logo.png" class="img-fluid logo" width="105"
+                        alt="">
+                </a>
+            </div>
+
+            <div id="primary-navigation" data-visible="false" class="primary-navigation">
+
+
+                <ul class="primary-nav-links p-0 ulStyle-none">
+
+                    <li class="mb-3 mb-md-0">
+                        <a href="../index.html" class="text-decoration-none">Home</a>
+                    </li>
+                    
+
+                    <li class="mb-3 mb-md-0">
+                        <a href="../events.html" class="text-decoration-none">Events</a>
+                    </li>
+
+                    <li class="mb-3 mb-md-0">
+                        <a href="../about.html" class="text-decoration-none">About</a>
+                    </li>
+
+                    <li class="mb-3 mb-md-0">
+                        <a href="../contact.html" class="text-decoration-none">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div id="secondary-navigation" data-visible="false" class="secondary-navigation d-flex gap-3 d-md-none">
+
+                <div class="container d-flex h-100">
+                    <div class="row">
+
+
+                        <div class="col-12 mt-4">
+                            <ul class="ulStyle-none">
+                                <li>
+                                    <p class="text-dark">Connect through Social Media</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 d-flex align-items-center">
+
+                            <ul class="nav-links ulStyle-none">
+                                <li class="mb-1">
+                                    <a href="https://www.instagram.com/hiru_withana/" target="_blank"
+                                        class="text-decoration-none fw-bold text-dark">Instagram</a>
+                                </li>
+
+                                <li class="mb-1">
+                                    <a href="https://www.facebook.com/HiruSachinthana"
+                                        class="text-decoration-none fw-bold text-dark" target="_blank">Facebook</a>
+                                </li>
+
+                                <li class="mb-1">
+                                    <a href="https://www.linkedin.com/in/hirunika-withana-490337175/"
+                                        class="text-decoration-none fw-bold text-dark" target="_blank">Linkedin</a>
+                                </li>
+
+                                <li class="mb-1">
+                                    <a href="https://github.com/HiruWithana"
+                                        class="text-decoration-none fw-bold text-dark" target="_blank">Github</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-6 d-flex align-items-end">
+                            <!-- <img src="../assets/images/sun.gif" class="img-fluid" alt=""> -->
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </nav>
+
+        <div class="d-none d-md-block">
+            <a href="#" class="memberBtn rounded-0  fw-bold">
+                Member Portal
+                <i class="fa-solid fa-arrow-right mx-1"></i>
+            </a>
+        </div>
+
+
+
+
+    </header>
+
+
+
+
+    
+
+    
+
+    <section class="blogHero pt-5">
+        <div class="container pt-4 p-md-5">
+            <!-- intro -->
+            <div class="row d-md-flex align-items-center">
+                <div class="col-md-6">
+    
+                    <!-- main title -->
+                    <h1 class="display-4 fw-bold text-white">A Guide to Sustainable Bartending</h1>
+    
+                    <!-- author and date -->
+                    <div class="d-flex flex-wrap gap-5 mt-5">
+                        <!-- left | author -->
+                        <div class="d-flex gap-2 align-items-center">
+                            <!-- author -->
+                            <img src="../assets/images/blog/blogWriter.webp" class="rounded-circle" width="60" alt="">
+                            <div class="pe-5 border-end">
+                                <!-- name -->
+                                <p class="mb-1 fw-bold text-white">Jagath Silva</p>
+                                <!-- position -->
+                                <p class="m-0 text-white">Blog Writer</p>
+                            </div>
+                        </div>
+    
+                        <!-- right | date -->
+                        <div class="">
+                            <p class="mb-1 text-white">Last Updated:</p>
+                            <p class="m-0 text-white">Aug 11, 2024</p>
+                        </div>
+                    </div>
+    
+                    <!-- intro -->
+                    <p class="mt-5 text-white text-18">
+                        Sustainable bartending is all about making conscious choices that reduce environmental impact. From
+                        sourcing local ingredients to minimizing waste, here’s how you can make your bar more eco-friendly.
+                    </p>
+    
+                </div>
+    
+                <div class="col-md-6">
+                    <!-- intro image -->
+                    <img src="../assets/images/blog/blogMain.jpg" class="img-fluid" alt="">
+                </div>
+    
+    
+            </div>
+        </div>
+    </section>
+    
+    <section class="singleBlogSection">
+        <div class="container py-5 p-md-5">
+    
+            <div class="row">
+                <!-- blog content -->
+                <div class="col-md-7 blogContent">
+                    <p>
+                        Sustainable bartending is about minimizing waste, conserving resources, and creating an eco-friendly
+                        atmosphere that resonates with conscious consumers
+                    </p>
+                    <p>
+                        Sustainability is no longer just a trend; it's a responsibility. In the world of hospitality, where
+                        bars and restaurants play a significant role in both local communities and the environment,
+                        embracing sustainable practices can make a profound impact.
+                    </p>
+    
+    
+                    <h1 class="mb-3 mt-5">Rethink Your Ingredients</h1>
+                    <p>One of the most effective ways to embrace sustainability in bartending is by rethinking the
+                        ingredients you use. Consider sourcing locally-grown, organic fruits, herbs, and vegetables.</p>
+                    <p>This reduces the carbon footprint associated with transportation and supports local farmers. </p>
+                    <p>
+                        Additionally, opting for seasonal ingredients not only ensures freshness but also cuts down on the
+                        energy required for storage and refrigeration.
+    
+                    </p>
+    
+                    <h1 class="mb-3 mt-5">Innovative Cocktail Techniques</h1>
+                    <img src="../assets/images/blog/blogImg1.jpg" class="img-fluid mb-3 rounded" alt="">
+                    <p>Sustainable bartending doesn’t mean compromising on creativity. In fact, it opens up new avenues for
+                        innovation. </p>
+                    <p>Techniques like fat-washing, where you infuse spirits with fats such as olive oil or butter, allow
+                        you to create unique, sustainable cocktails.</p>
+                    <p>Additionally, you can use leftover kitchen ingredients like herbs, spices, and even coffee grounds to
+                        craft new drinks, reducing waste and creating one-of-a-kind experiences for your patrons.</p>
+    
+    
+                    <h1 class="mb-3 mt-5">Reduce Waste</h1>
+                    <p>Waste reduction is at the heart of sustainable bartending. Start by implementing a no-waste policy
+                        behind the bar. </p>
+                    <p>For example, use every part of the fruit – zest for garnishes, juice for cocktails, and even peels
+                        for infusions or syrups. Encourage the use of reusable straws, glassware, and bar tools instead of
+                        disposable ones. </p>
+                    <p>Compost organic waste and recycle where possible. This not only cuts down on waste but also shows
+                        your customers that you care about the environment.</p>
+    
+    
+                    <h1 class="mb-3 mt-5">Eco-Friendly Packaging</h1>
+                    <img src="../assets/images/blog/blogImg2.jpg" class="img-fluid" alt="">
+                    <P>If your bar offers takeaway options, choose eco-friendly packaging. Opt for biodegradable or
+                        compostable containers instead of plastic. Encourage customers to bring their own reusable cups for
+                        takeaway drinks by offering a discount.</P>
+                    <P>This not only reduces waste but also fosters a community of environmentally conscious patrons.</P>
+    
+    
+                    <h1 class="mb-3 mt-5">Support Sustainable Brands</h1>
+                    <p>Partnering with brands that share your commitment to sustainability can amplify your efforts. Choose
+                        spirits and mixers from companies that prioritize ethical sourcing, fair trade practices, and
+                        eco-friendly packaging. </p>
+                    <p>By aligning with like-minded brands, you’re not only enhancing your bar’s sustainability but also
+                        contributing to a larger movement within the industry.</p>
+    
+    
+    
+                    <p>Rethinking your ingredients, reducing waste, conserving energy, and engaging your customers, you can
+                        transform your bar into a model of sustainability. <span class="fw-bold">Embrace the challenge, and
+                            raise a glass to a greener future!</span></p>
+    
+    
+    
+    
+    
+                </div>
+    
+                <!-- join card -->
+                <div class="col-md-5 p-5 blogCard d-none d-md-block">
+    
+                    <div class="p-3">
+                        <div class="floatCard rounded pb-2">
+    
+                            <div class="d-flex justify-content-center">
+                                <img src="../assets/images/blog/cocktail1.png" class="floatIcon" width="100" alt="">
+                            </div>
+    
+                            <div class="px-4 pb-4">
+    
+                                <h3 class="text-center font-playFair">A Wine Club <br>Designed For You</h6>
+                                    <h6 class="fw-normal text-center mt-3 mb-4">OptimizeUniversity gives you the latest
+                                        marketing training courses, strategies & tactics to
+                                        grow
+                                        your business fast.</h6>
+                                    <!-- CAT button -->
+                                    <div class="d-flex justify-content-center">
+                                        <a class="btn-oak btn-1 hover-filled-slide-down w-100">
+                                            <span>Learn More</span>
+                                        </a>
+                                    </div>
+                            </div>
+    
+                        </div>
+                    </div>
+    
+    
+                </div>
+    
+            </div>
+    
+    
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!--  banner section  -->
+    <div class="container-fluid footerBanner bg-white pb-5">
+
+        <div class="row d-flex align-items-bottom px-5">
+
+            <!-- for alignment purposes only -->
+            <div class="col-md-9"></div>
+
+            <div class="col-md-3 bg-white p-4 px-md-5">
+                <!-- title -->
+                <h1 class="text-start mb-4 font-playFair text-oak animateIn delay-2">
+                    Benefits of Membership
+                </h1>
+
+                <p class="animateIn delay-3">
+                    Registering as a member of NFBPG is a simple yet impactful step towards enhancing your career and
+                    being part of a supportive and thriving community. Don't miss out—join us today!
+                </p>
+
+
+                <!-- CAT button -->
+                <div class="mt-5">
+                    <a class="btn-oak text-uppercase btn-1 hover-filled-slide-down w-100 animateIn delay-4">
+                        <span>Register Now</span>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid p-3 p-md-5 bg-oak position-relative">
+
+        <div class="container footer lightBorder d-flex flex-column justify-content-between p-5">
+
+            <!-- primary footer -->
+            <div class="row">
+
+
+                <div class="col-md-5">
+                    <img src="../assets/images/logo.png" class="img-fluid w-md-50" alt="">
+
+                    <!-- social buttons | mobile -->
+                    <div class="mt-5 d-flex justify-content-center gap-5 d-md-none">
+
+                        <a href="#" class="text-decoration-none text-white">
+                            <i class="fa-brands fa-facebook-f h3"></i>
+                        </a>
+
+                        <a href="#" class="text-decoration-none text-white">
+                            <i class="fa-brands fa-instagram h3"></i>
+                        </a>
+
+                        <a href="#" class="text-decoration-none text-white">
+                            <i class="fa-brands fa-x-twitter h3"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-7 mt-5 mt-md-0">
+
+                    <div class="row">
+
+                        <!-- company -->
+                        <div class="col-md-4 mt-5 mt-md-0">
+                            <!-- footer section title -->
+                            <h5 class="text-white mb-4 font-playFair">COMPANY</h5>
+
+                            <div class="">
+                                <ul class="p-0 d-flex gap-2 flex-column">
+                                    <li class="hoverU"><a href="#about">About</a></li>
+                                    <li class="hoverU"><a href="#submit">Submit and issue</a></li>
+                                    <li class="hoverU"><a href="#github">Github Repo</a></li>
+                                    <li class="hoverU"><a href="#slack">Slack</a></li>
+                                </ul>
+
+
+                            </div>
+
+                        </div>
+
+                        <!-- community -->
+                        <div class="col-md-4 mt-5 mt-md-0">
+                            <!-- footer section title -->
+                            <h5 class="text-white mb-4 font-playFair">COMMUNITY</h5>
+
+                            <div class="">
+                                <ul class="p-0 d-flex gap-2 flex-column">
+                                    <li class="hoverU"><a href="#introduction">Introduction</a></li>
+                                    <li class="hoverU"><a href="#documentation">Documentation</a></li>
+                                    <li class="hoverU"><a href="#usage">Usage</a></li>
+                                    <li class="hoverU"><a href="#globals">Globals</a></li>
+                                    <li class="hoverU"><a href="#elements">Elements</a></li>
+                                    <li class="hoverU"><a href="#collections">Collections</a></li>
+                                    <li class="hoverU"><a href="#themes">Themes</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Support -->
+                        <div class="col-md-4 mt-5 mt-md-0">
+                            <!-- footer section title -->
+                            <h5 class="text-white mb-4 font-playFair">SUPPORT</h5>
+
+                            <div class="">
+                                <ul class="p-0 d-flex gap-2 flex-column">
+                                    <li class="hoverU"><a href="#api">API</a></li>
+                                    <li class="hoverU"><a href="#form-validation">Form Validation</a></li>
+                                    <li class="hoverU"><a href="#visibility">Visibility</a></li>
+                                    <li class="hoverU"><a href="#accessibility">Accessibility</a></li>
+                                    <li class="hoverU"><a href="#community">Community</a></li>
+                                    <li class="hoverU"><a href="#design">Design</a></li>
+                                    <li class="hoverU"><a href="#market-place">Market Place</a></li>
+                                </ul>
+
+
+                            </div>
+
+                        </div>
+
+                        <!-- legal pages | moblie -->
+                        <div class="col-md-4 mt-5 d-md-none">
+                            <!-- footer section title -->
+                            <h5 class="text-white mb-4 font-playFair">Legal Pages</h5>
+
+                            <div class="">
+                                <ul class="p-0 d-flex gap-2 flex-column">
+                                    <li class="hoverU"><a href="#api">API</a></li>
+                                    <li class="hoverU"><a href="#privacy-policy">Privacy Policy</a></li>
+                                    <li class="hoverU"><a href="#security">Security</a></li>
+                                    <li class="hoverU"><a href="#sitemap">Sitemap</a></li>
+                                </ul>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!-- secondary footer -->
+            <div class="row d-none d-md-flex">
+
+                <div class="col-md-4">
+                    <p class="text-white">2024 Ceylon Bartender Association</p>
+                </div>
+
+                <div class="col-md-6">
+
+                    <ul class="p-0 d-flex gap-4">
+                        <li class="hoverU"><a href="#api">Terms of Service</a></li>
+                        <li class="hoverU"><a href="#privacy-policy">Privacy Policy</a></li>
+                        <li class="hoverU"><a href="#security">Security</a></li>
+                        <li class="hoverU"><a href="#sitemap">Sitemap</a></li>
+                    </ul>
+
+
+                </div>
+
+
+                <div class="col-md-2">
+
+                    <ul class="po- d-flex gap-4">
+                        <li class="hoverU">
+                            <a href="#" class="text-decoration-none text-white">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+
+                        <li class="hoverU">
+                            <a href="#" class="text-decoration-none text-white">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li class="hoverU">
+                            <a href="#" class="text-decoration-none text-white">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <img src="../assets/images/testImage/cocktail1.png" class="position-absolute bottom-0 end-0"
+            width="150" alt="">
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.addEventListener('scroll', function () {
+            const header = document.getElementById('header');
+            if (window.scrollY > 0) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+
+    <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script>
+
+    <!-- Gasp -->
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <!-- scroll trigger js -->
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+
+    <!-- swiper Js vesion 11 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   
+   
+    <script src="../assets/js/nav.js"></script>
+    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/swiper.js"></script>
+    <script src="../assets/js/animateIn.js"></script>
+    <script src="../assets/js/pin.js"></script>
+    <script src="../assets/js/blog.js"></script>
+
+
+
+
+</body>
+
+</html>

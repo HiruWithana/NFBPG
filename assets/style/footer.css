@@ -1,0 +1,34 @@
+.footer{
+    min-height: 75vh;
+    background-color: #3d251e;
+}
+
+
+/* ------------------ hover underline ------------------ */
+.hoverU{
+    list-style: none;
+}
+.hoverU a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  .hoverU a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.05em;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+  }
+  .hoverU a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

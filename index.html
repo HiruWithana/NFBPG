@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Bartender Association</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favIcon.png">
+
+    <!-- main font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- playFair -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="assets/style/preLoader.css">
+    <link rel="stylesheet" href="assets/style/nav.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
+    <link rel="stylesheet" href="assets/style/index.css">
+    <link rel="stylesheet" href="assets/style/general.css">
+    <link rel="stylesheet" href="assets/style/blog.css">
+
+
+
+
+
+
+</head>
+
+<body class="bg-white">
+
+    <!-- navigation -->
+    <header id="header"
+        class="container-fluid px-md-5 py-2 primary-header d-flex justify-content-between align-items-center">
+
+        <!-- logo -->
+
+
+        <!-- toggle button -->
+        <button class="mobile-nav-toggle rounded-pill px-3 py-2" aria-controls="primary-navigation"
+            aria-expanded="false">
+            Menu
+        </button>
+
+        <!-- navbar -->
+        <nav class="pt-2 d-flex gap-5 px-md-5">
+
+            <div class="">
+                <a href="index.html">
+                    <img id="logo" src="assets/images/logo.png" class="img-fluid logo" width="105"
+                        alt="">
+                </a>
+            </div>
+
+            <div id="primary-navigation" data-visible="false" class="primary-navigation">
+
+
+                <ul class="primary-nav-links p-0 ulStyle-none">
+
+                    <li class="mb-3 mb-md-0">
+                        <a href="index.html" class="text-decoration-none">Home</a>
+                    </li>
+                    
+
+                    <li class="mb-3 mb-md-0">
+                        <a href="events.html" class="text-decoration-none">Events</a>
+                    </li>
+
+                    <li class="mb-3 mb-md-0">
+                        <a href="about.html" class="text-decoration-none">About</a>
+                    </li>
+
+                    <li class="mb-3 mb-md-0">
+                        <a href="contact.html" class="text-decoration-none">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div id="secondary-navigation" data-visible="false" class="secondary-navigation d-flex gap-3 d-md-none">
+
+                <div class="container d-flex h-100">
+                    <div class="row">
+
+
+                        <div class="col-12 mt-4">
+                            <ul class="ulStyle-none">
+                                <li>
+                                    <p class="text-dark">Connect through Social Media</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6 d-flex align-items-center">
+
+                            <ul class="nav-links ulStyle-none">
+                                <li class="mb-1">
+                                    <a href="https://www.instagram.com/hiru_withana/" target="_blank"
+                                        class="text-decoration-none fw-bold text-dark">Instagram</a>
+                                </li>
+
+                                <li class="mb-1">
+                                    <a href="https://www.facebook.com/HiruSachinthana"
+                                        class="text-decoration-none fw-bold text-dark" target="_blank">Facebook</a>
+                                </li>
+
+                                <li class="mb-1">
+                                    <a href="https://www.linkedin.com/in/hirunika-withana-490337175/"
+                                        class="text-decoration-none fw-bold text-dark" target="_blank">Linkedin</a>
+                                </li>
+
+                                <li class="mb-1">
+                                    <a href="https://github.com/HiruWithana"
+                                        class="text-decoration-none fw-bold text-dark" target="_blank">Github</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-6 d-flex align-items-end">
+                            <!-- <img src="assets/images/sun.gif" class="img-fluid" alt=""> -->
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </nav>
+
+        <div class="d-none d-md-block">
+            <a href="#" class="memberBtn rounded-0  fw-bold">
+                Member Portal
+                <i class="fa-solid fa-arrow-right mx-1"></i>
+            </a>
+        </div>
+
+
+
+
+    </header>
+
+
+
+    <!-- pre loader -->
+    <div
+        class="loading-screen z-5 bg-oak d-flex flex-column flex-md-row align-items-center justify-content-center gap-5">
+
+
+        <div class="counter d-flex gap-0">
+
+            <div class="counter-1 digit">
+                <div class="num">0</div>
+                <div class="num num1offset1">1</div>
+            </div>
+
+            <div class="counter-2 digit">
+                <div class="num">0</div>
+                <div class="num num1offset2">1</div>
+                <div class="num">2</div>
+                <div class="num">3</div>
+                <div class="num">4</div>
+                <div class="num">5</div>
+                <div class="num">6</div>
+                <div class="num">7</div>
+                <div class="num">8</div>
+                <div class="num">9</div>
+                <div class="num">0</div>
+            </div>
+
+            <div class="counter-3 digit">
+                <div class="num">0</div>
+                <div class="num">1</div>
+                <div class="num">2</div>
+                <div class="num">3</div>
+                <div class="num">4</div>
+                <div class="num">5</div>
+                <div class="num">6</div>
+                <div class="num">7</div>
+                <div class="num">8</div>
+                <div class="num">9</div>
+            </div>
+
+        </div>
+
+
+        <h6 class="preloader-text">NFBPG</h6>
+
+        <img src="assets/images/testImage/cocktail3.png" class="position-absolute bottom-0 end-0"
+            width="175" alt="">
+
+
+
+
+
+    </div>
+
+    <!-- Landing section -->
+    <div class="container-fluid landingSection p-0">
+
+        <video autoplay muted loop playsinline>
+            <source src="assets/images/hero.mp4" type="video/mp4" />
+        </video>
+
+
+
+        <div class="h-100 d-flex align-items-end justify-content-center">
+            <h1 class="title display-1 d-flex gap-0">
+                <span>N</span>
+                <span>F</span>
+                <span>B</span>
+                <span>P</span>
+                <span>G</span>
+            </h1>
+        </div>
+
+
+
+    </div>
+
+    <!-- hero sections -->
+    <div class="container-fluid d-flex justify-content-center bg-white p-0 heroSection">
+
+        <div class="heroContent p-4">
+
+            <div class="h-100 d-flex flex-column align-items-center justify-content-center lightBorder py-4">
+
+                <!-- sub slogan -->
+                <h6 class="text-white text-center animateIn delay-2">Serving a Diverse and Dynamic Community</h6>
+
+                <h1 class="text-white display-3 font-playFair text-center heroTitle">Shaping the Future of Hospitality
+                </h1>
+
+                <div class="w-md-50 p-3">
+                    <p class="text-white text-center animateIn delay-3">
+                        NFBPG is dedicated to supporting professionals in the bartending and hospitality industry.
+                        Founded
+                        with the belief that the industry should be inclusive, innovative, and community-focused, NFBPG
+                        is
+                        here to empower and connect individuals from all walks of life.
+                    </p>
+                </div>
+
+                <div class="d-flex flex-wrap justify-content-center gap-5 my-4">
+
+                    <img src="assets/images/testImage/carbon-neutral-certification.avif" width="100"
+                        alt="" class="animateIn delay-2">
+
+                    <img src="assets/images/testImage/mbe-certication.webp" width="100" alt=""
+                        class="animateIn delay-3">
+
+                    <img src="assets/images/testImage/black-owned-women-own-certification.png"
+                        width="100" alt="" class="animateIn delay-4">
+
+                    <img src="assets/images/testImage/award-winning-wines-certification.png" width="100"
+                        alt="" class="animateIn delay-5">
+                </div>
+
+
+
+                <div class="mt-5">
+                    <a class="btn-oak btn-2 hover-slide-down animateIn delay-5">
+                        <span>Learn More</span>
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <!-- large text | section 1 -->
+    <div class="container-fluid p-md-5 bg-white">
+
+        <div class="container py-5 px-4 p-md-5 mt-5 position-relative subHero">
+            <h1 class="display-3 font-playFair largeTxt1 text-oak">
+                Stay informed about upcoming events, workshops, and training programs through our news portal.
+            </h1>
+            <p class="mt-5 animateIn delay-3">NEVER MISS AN OPPERTUNITY TO GROW & CONNECT ➔</p>
+
+            <img src="assets/images/testImage/cocktail2.png"
+                class="float-img1 position-absolute top-0 end-0" alt="">
+
+
+        </div>
+
+    </div>
+
+    <!-- blog swiper -->
+    <div class="container-fluid p-0 bg-white py-0">
+
+
+        <div class="swiper cafeSwiper">
+            <div class="swiper-wrapper">
+
+                <!-- Single SLide -->
+                <div class="swiper-slide position-relative">
+
+                    <a href="blogs/singleBlogTemplate.html">
+                        <img src="assets/images/testImage/blog1.jpg" class="img-fluid" alt="">
+
+                        <div class="px-4 pb-2 position-absolute bottom-0">
+                            <h4 class="text-white fw-normal">McBride Sisters Collection</h5>
+                                <h6 class="text-white mt--5">WHERE WILL WINE TAKE YOU?</h6>
+                        </div>
+
+                        <div class="position-absolute top-0 end-0 p-4 d-flex justify-content-between w-100">
+
+                            <div>
+                                <small class="text-white fw-bold">22 MAR 2024</small>
+                            </div>
+
+
+                            <small>
+                                <span class="bg-oak rounded-pill text-white py-1 px-3">COMMUNITY</span>
+                            </small>
+
+
+
+                        </div>
+                    </a>
+
+
+                </div>
+
+                <!-- Single SLide -->
+                <div class="swiper-slide position-relative">
+
+                    <a href="blogs/singleBlogTemplate.html">
+                        <img src="assets/images/testImage/blog2.jpg" class="img-fluid" alt="">
+
+                        <div class="px-4 pb-2 position-absolute bottom-0">
+                            <h4 class="text-white fw-normal">Black Girl Magic Wine</h5>
+                                <h6 class="text-white mt--5">WINE LIKE YOU.</h6>
+                        </div>
+
+                        <div class="position-absolute top-0 end-0 p-4 d-flex justify-content-between w-100">
+
+                            <div>
+                                <small class="text-white fw-bold">4 JUN 2024</small>
+                            </div>
+
+
+                            <small>
+                                <span class="bg-oak rounded-pill text-white py-1 px-3">ARTICLE</span>
+                            </small>
+
+
+
+                        </div>
+
+                    </a>
+
+
+                </div>
+
+                <!-- Single SLide -->
+                <div class="swiper-slide position-relative">
+
+                    <a href="blogs/singleBlogTemplate.html">
+
+                        <img src="assets/images/testImage/blog3.jpg" class="img-fluid" alt="">
+
+                        <div class="px-4 pb-2 position-absolute bottom-0">
+                            <h4 class="text-white fw-normal">McBride Sisters Collection</h5>
+                                <h6 class="text-white mt--5">WHERE WILL WINE TAKE YOU?</h6>
+                        </div>
+
+                        <div class="position-absolute top-0 end-0 p-4 d-flex justify-content-between w-100">
+
+                            <div>
+                                <small class="text-white fw-bold">22 MAR 2024</small>
+                            </div>
+
+
+                            <small>
+                                <span class="bg-oak rounded-pill text-white py-1 px-3">COMMUNITY</span>
+                            </small>
+
+
+
+                        </div>
+
+                    </a>
+
+
+                </div>
+
+                <!-- Single SLide -->
+                <div class="swiper-slide position-relative">
+
+                    <a href="blogs/singleBlogTemplate.html">
+
+                        <img src="assets/images/testImage/h-1.jpg" class="img-fluid" alt="">
+
+                        <div class="px-4 pb-2 position-absolute bottom-0">
+                            <h4 class="text-white fw-normal">McBride Sisters Collection</h5>
+                                <h6 class="text-white mt--5">WHERE WILL WINE TAKE YOU?</h6>
+                        </div>
+
+                        <div class="position-absolute top-0 end-0 p-4 d-flex justify-content-between w-100">
+
+                            <div>
+                                <small class="text-white fw-bold">22 MAR 2024</small>
+                            </div>
+
+
+                            <small>
+                                <span class="bg-oak rounded-pill text-white py-1 px-3">COMMUNITY</span>
+                            </small>
+
+
+
+                        </div>
+
+                    </a>
+
+
+                </div>
+
+                <!-- Single SLide -->
+                <div class="swiper-slide position-relative">
+
+                    <a href="blogs/singleBlogTemplate.html">
+
+                        <img src="assets/images/testImage/blog2.webp" class="img-fluid" alt="">
+
+                        <div class="px-4 pb-2 position-absolute bottom-0">
+                            <h4 class="text-white fw-normal">Black Girl Magic Wine</h5>
+                                <h6 class="text-white mt--5">WINE LIKE YOU.</h6>
+                        </div>
+
+                        <div class="position-absolute top-0 end-0 p-4 d-flex justify-content-between w-100">
+
+                            <div>
+                                <small class="text-white fw-bold">4 JUN 2024</small>
+                            </div>
+
+
+                            <small>
+                                <span class="bg-oak rounded-pill text-white py-1 px-3">ARTICLE</span>
+                            </small>
+
+
+
+                        </div>
+
+                    </a>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- large text | section 2 -->
+    <div class="container-fluid p-md-5 bg-white infoSection">
+
+        <div class="container py-5 px-4 p-md-5 position-relative">
+            <h6 class="fw-bold mb-3">UNLOCK EXCLUSIVE MEMBER BENEFITS</h6>
+            <h1 class="display-3 font-playFair largeTxt2 text-oak">
+                Professional development opportunities, member discounts, and a supportive community of industry
+                professionals.
+            </h1>
+        </div>
+
+        <div class="container px-4 p-md-5 position-relative infoGrid">
+
+            <div class="row">
+
+                <!-- data Grid 1 -->
+                <div class="col-md-3 pb-5 pb-md-0">
+                    <h4 class="fw-normal font-playFair animateIn delay-2">Total Members</h4>
+                    <hr class="animateHr">
+                    <h3 class="font-playFair animateIn delay-3">100+</h3>
+                </div>
+
+                <!-- data Grid 2 -->
+                <div class="col-md-3 pb-5 pb-md-0">
+                    <h4 class="fw-normal font-playFair animateIn delay-2">Total Hotels</h4>
+                    <hr class="animateHr">
+                    <h3 class="font-playFair animateIn delay-3">20+</h3>
+                </div>
+
+                <!-- data Grid 3 -->
+                <div class="col-md-3 pb-5 pb-md-0">
+                    <h4 class="fw-normal font-playFair animateIn delay-2">Events Planned</h4>
+                    <hr class="animateHr">
+                    <h3 class="font-playFair animateIn delay-3">50+</h3>
+                </div>
+
+                <!-- data Grid 4 -->
+                <div class="col-md-3 pb-5 pb-md-0">
+                    <h4 class="fw-normal font-playFair animateIn delay-2">Community</h4>
+                    <hr class="animateHr">
+                    <h3 class="font-playFair animateIn delay-3">150+</h3>
+                </div>
+
+
+                <div class="pb-5 pb-md-0">
+                    <!-- info paragraph -->
+                    <p class="w-md-50 mt-5 animateIn delay-3 mb-5">
+                        Our membership offers exclusive benefits, including access to professional development
+                        opportunities, member discounts, and a supportive community of industry professionals.
+                    </p>
+
+
+
+                    <div class="">
+
+                        <a class="btn-oak btn-1 hover-filled-slide-down animateIn delay-4">
+                            <span>Register Today</span>
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+            <img src="assets/images/testImage/whiskey.png"
+                class="float-img2 position-absolute bottom-0 end-0" alt="">
+
+        </div>
+
+
+
+    </div>
+
+    <!-- banner section -->
+    <div class="container-fluid bannerSection bg-white">
+
+        <div class="row d-flex align-items-bottom px-5">
+
+            <!-- for alignment purposes only -->
+            <div class="col-md-8"></div>
+
+
+            <div class="col-md-4 bg-white p-4 px-md-5">
+                <!-- title -->
+                <h1 class="text-center mb-5 font-playFair text-oak animateIn delay-2">A Guild <br>Designed For You</h1>
+
+                <!-- single list of data -->
+                <div class="d-flex gap-4 mb-3">
+                    <!-- icon -->
+                    <div>
+                        <img src="assets/images/testImage/wine-icon.avif" width="25" alt=""
+                            class="animateIn">
+                    </div>
+
+                    <!-- info -->
+                    <div>
+                        <h6 class="animateIn delay-2 text-uppercase">Access to Exclusive Resources</h6>
+                        <p class="mt--55 animateIn delay-3">
+                            Enjoy unlimited access to our comprehensive E-Library with downloadable guides and
+                            templates.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- single list of data -->
+                <div class="d-flex gap-4 mb-3">
+                    <!-- icon -->
+                    <div>
+                        <img src="assets/images/testImage/cheers-icon.avif" width="35" alt=""
+                            class="animateIn">
+                    </div>
+
+                    <!-- info -->
+                    <div>
+                        <h6 class="animateIn delay-2 text-uppercase">Networking and Community</h6>
+                        <p class="mt--55 animateIn delay-3">Connect with fellow members and learn from their
+                            experiences.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- single list of data -->
+                <div class="d-flex gap-4 mb-3">
+                    <!-- icon -->
+                    <div>
+                        <img src="assets/images/testImage/ticket-icon.avif" width="35" alt=""
+                            class="animateIn">
+                    </div>
+
+                    <!-- info -->
+                    <div>
+                        <h6 class="animateIn delay-2 text-uppercase">Special Discounts and Offers</h6>
+                        <p class="mt--55 animateIn delay-3">Benefit from exclusive discounts on a wide range of products
+                            and services.</p>
+                    </div>
+                </div>
+
+                <!-- single list of data -->
+                <div class="d-flex gap-4 mb-3">
+                    <!-- icon -->
+                    <div>
+                        <img src="assets/images/testImage/gift-icon.avif" width="35" alt=""
+                            class="animateIn">
+                    </div>
+
+                    <!-- info -->
+                    <div>
+                        <h6 class="animateIn delay-2 text-uppercase">Career Advancement</h6>
+                    </div>
+                </div>
+
+
+
+                <!-- CAT button -->
+                <div class="mt-5">
+
+                    <a class="btn-oak btn-1 hover-filled-slide-down w-100 animateIn delay-2">
+                        <span>Register Today</span>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- quick links -->
+    <div class="container-fluid bg-white py-5">
+
+        <div class="container py-5 px-4 p-md-5 position-relative">
+
+            <h3 class="fw-bold text-center animateIn delay-2">Quick Links</h3>
+
+            <h1 class="display-6 font-playFair text-center text-oak animateIn delay-3">
+                Stay Upto Date with NFBPG Blogs
+            </h1>
+
+            <div class="mt-5 d-flex flex-wrap gap-4 justify-content-center py-4 px-md-5">
+
+                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-3">
+                    Member Benefits
+                </button>
+
+                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-2">
+                    Tips for an Eco-Friendly Bar
+                </button>
+
+
+
+                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-2">The
+                    Perfect Cocktail</button>
+
+                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-3">
+                    Trends to Watch in 2024
+                </button>
+
+
+                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-2">
+                    Member Success
+                </button>
+
+                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-3">
+                    Upcoming Events
+                </button>
+
+                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-2">
+                    Advice from the Pros
+                </button>
+
+                <button class="border border-2 rounded-pill px-3 py-2 small blogCategoryBtn animateIn delay-3">
+                    Green Practices
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- dual section -->
+    <div class="container-fluid bg-white py-5">
+
+        <div class="container pb-5">
+
+            <div class="row gx-5 position-relative">
+
+                <div class="col-md-6 animateIn delay-2">
+
+                    <div class="swiper footerImgSwiper">
+
+                        <div class="swiper-wrapper">
+
+                            <!-- Single Slide -->
+                            <div class="swiper-slide">
+                                <img src="assets/images/testImage/slider1.jpg" class="img-fluid w-100"
+                                    alt="">
+                            </div>
+
+                            <!-- Single Slide -->
+                            <div class="swiper-slide">
+                                <img src="assets/images/testImage/slider3.jpg" class="img-fluid w-100"
+                                    alt="">
+                            </div>
+
+                            <!-- Single Slide -->
+                            <div class="swiper-slide">
+                                <img src="assets/images/testImage/slider2.jpg" class="img-fluid w-100"
+                                    alt="">
+                            </div>
+
+                            <!-- Single Slide -->
+                            <div class="swiper-slide">
+                                <img src="assets/images/testImage/slider4.jpg" class="img-fluid w-100"
+                                    alt="">
+                            </div>
+
+                        </div>
+
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- Add Navigation -->
+                        <div class="swiper-button-next custom-next"><i
+                                class="fa-solid fa-arrow-right text-white h3"></i>
+                        </div>
+                        <div class="swiper-button-prev custom-prev"><i class="fa-solid fa-arrow-left text-white h3"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="col-md-6 animateIn delay-3 bg-oak position-relative py-5 py-md-4 px-4 px-5 mt-5 mt-md-0 d-flex flex-column justify-content-between">
+
+                    <div>
+                        <h1 class="font-playFair fw-bold text-white display-3">FOLLOW US</h1>
+                        <h6 class="text-white mb-4">Social Media</h6>
+
+                        <p class="text-white">Stay up-to-date with the latest news, events, and trends in the bartending
+                            and hospitality industry by following NFBPG on social media.</p>
+
+                    </div>
+
+
+                    <div class="d-flex flex-wrap gap-5">
+                        <a href="#" class="text-decoration-none text-white h3">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="text-decoration-none text-white h3">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="text-decoration-none text-white h3">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#" class="text-decoration-none text-white h3">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+
+                    <img src="assets/images/testImage/whiskeyShot.png"
+                        class="position-absolute bottom-0 end-0 cheersImg" alt="">
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--  banner section  -->
+    <div class="container-fluid footerBanner bg-white pb-5">
+
+        <div class="row d-flex align-items-bottom px-5">
+
+            <!-- for alignment purposes only -->
+            <div class="col-md-9"></div>
+
+            <div class="col-md-3 bg-white p-4 px-md-5">
+                <!-- title -->
+                <h1 class="text-start mb-4 font-playFair text-oak animateIn delay-2">
+                    Benefits of Membership
+                </h1>
+
+                <p class="animateIn delay-3">
+                    Registering as a member of NFBPG is a simple yet impactful step towards enhancing your career and
+                    being part of a supportive and thriving community. Don't miss out—join us today!
+                </p>
+
+
+                <!-- CAT button -->
+                <div class="mt-5">
+                    <a class="btn-oak text-uppercase btn-1 hover-filled-slide-down w-100 animateIn delay-4">
+                        <span>Register Now</span>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid p-3 p-md-5 bg-oak position-relative">
+
+        <div class="container footer lightBorder d-flex flex-column justify-content-between p-5">
+
+            <!-- primary footer -->
+            <div class="row">
+
+
+                <div class="col-md-5">
+                    <img src="assets/images/logo.png" class="img-fluid w-md-50" alt="">
+
+                    <!-- social buttons | mobile -->
+                    <div class="mt-5 d-flex justify-content-center gap-5 d-md-none">
+
+                        <a href="#" class="text-decoration-none text-white">
+                            <i class="fa-brands fa-facebook-f h3"></i>
+                        </a>
+
+                        <a href="#" class="text-decoration-none text-white">
+                            <i class="fa-brands fa-instagram h3"></i>
+                        </a>
+
+                        <a href="#" class="text-decoration-none text-white">
+                            <i class="fa-brands fa-x-twitter h3"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-7 mt-5 mt-md-0">
+
+                    <div class="row">
+
+                        <!-- company -->
+                        <div class="col-md-4 mt-5 mt-md-0">
+                            <!-- footer section title -->
+                            <h5 class="text-white mb-4 font-playFair">COMPANY</h5>
+
+                            <div class="">
+                                <ul class="p-0 d-flex gap-2 flex-column">
+                                    <li class="hoverU"><a href="#about">About</a></li>
+                                    <li class="hoverU"><a href="#submit">Submit and issue</a></li>
+                                    <li class="hoverU"><a href="#github">Github Repo</a></li>
+                                    <li class="hoverU"><a href="#slack">Slack</a></li>
+                                </ul>
+
+
+                            </div>
+
+                        </div>
+
+                        <!-- community -->
+                        <div class="col-md-4 mt-5 mt-md-0">
+                            <!-- footer section title -->
+                            <h5 class="text-white mb-4 font-playFair">COMMUNITY</h5>
+
+                            <div class="">
+                                <ul class="p-0 d-flex gap-2 flex-column">
+                                    <li class="hoverU"><a href="#introduction">Introduction</a></li>
+                                    <li class="hoverU"><a href="#documentation">Documentation</a></li>
+                                    <li class="hoverU"><a href="#usage">Usage</a></li>
+                                    <li class="hoverU"><a href="#globals">Globals</a></li>
+                                    <li class="hoverU"><a href="#elements">Elements</a></li>
+                                    <li class="hoverU"><a href="#collections">Collections</a></li>
+                                    <li class="hoverU"><a href="#themes">Themes</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Support -->
+                        <div class="col-md-4 mt-5 mt-md-0">
+                            <!-- footer section title -->
+                            <h5 class="text-white mb-4 font-playFair">SUPPORT</h5>
+
+                            <div class="">
+                                <ul class="p-0 d-flex gap-2 flex-column">
+                                    <li class="hoverU"><a href="#api">API</a></li>
+                                    <li class="hoverU"><a href="#form-validation">Form Validation</a></li>
+                                    <li class="hoverU"><a href="#visibility">Visibility</a></li>
+                                    <li class="hoverU"><a href="#accessibility">Accessibility</a></li>
+                                    <li class="hoverU"><a href="#community">Community</a></li>
+                                    <li class="hoverU"><a href="#design">Design</a></li>
+                                    <li class="hoverU"><a href="#market-place">Market Place</a></li>
+                                </ul>
+
+
+                            </div>
+
+                        </div>
+
+                        <!-- legal pages | moblie -->
+                        <div class="col-md-4 mt-5 d-md-none">
+                            <!-- footer section title -->
+                            <h5 class="text-white mb-4 font-playFair">Legal Pages</h5>
+
+                            <div class="">
+                                <ul class="p-0 d-flex gap-2 flex-column">
+                                    <li class="hoverU"><a href="#api">API</a></li>
+                                    <li class="hoverU"><a href="#privacy-policy">Privacy Policy</a></li>
+                                    <li class="hoverU"><a href="#security">Security</a></li>
+                                    <li class="hoverU"><a href="#sitemap">Sitemap</a></li>
+                                </ul>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!-- secondary footer -->
+            <div class="row d-none d-md-flex">
+
+                <div class="col-md-4">
+                    <p class="text-white">2024 Ceylon Bartender Association</p>
+                </div>
+
+                <div class="col-md-6">
+
+                    <ul class="p-0 d-flex gap-4">
+                        <li class="hoverU"><a href="#api">Terms of Service</a></li>
+                        <li class="hoverU"><a href="#privacy-policy">Privacy Policy</a></li>
+                        <li class="hoverU"><a href="#security">Security</a></li>
+                        <li class="hoverU"><a href="#sitemap">Sitemap</a></li>
+                    </ul>
+
+
+                </div>
+
+
+                <div class="col-md-2">
+
+                    <ul class="po- d-flex gap-4">
+                        <li class="hoverU">
+                            <a href="#" class="text-decoration-none text-white">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+
+                        <li class="hoverU">
+                            <a href="#" class="text-decoration-none text-white">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li class="hoverU">
+                            <a href="#" class="text-decoration-none text-white">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <img src="assets/images/testImage/cocktail1.png" class="position-absolute bottom-0 end-0"
+            width="150" alt="">
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.addEventListener('scroll', function () {
+            const header = document.getElementById('header');
+            if (window.scrollY > 0) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+
+    <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script>
+
+    <!-- Gasp -->
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <!-- scroll trigger js -->
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+
+    <!-- swiper Js vesion 11 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   
+    <script src="assets/js/preLoader.js"></script>
+    
+
+   
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/animateIn.js"></script>
+    <script src="assets/js/pin.js"></script>
+    <script src="assets/js/blog.js"></script>
+
+
+
+
+</body>
+
+</html>

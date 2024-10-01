@@ -1,0 +1,351 @@
+.font-playFair {
+    font-family: "Playfair Display", serif;
+
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+.w-md-50 {
+    width: 50%;
+}
+
+.bg-oak {
+    background-color: #3d251e;
+}
+
+.text-oak {
+    color: #3d251e;
+}
+
+/* button design */
+
+.btn-oak::before,
+.btn-oak::after {
+    position: absolute;
+    content: "";
+}
+
+
+.btn-oak {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.btn-oak span {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+}
+
+/*--- btn-1 ---*/
+.btn-1::before {
+    background-color: #3d251e;
+    transition: 0.3s ease-out;
+}
+
+.btn-1 span {
+    color: rgb(255, 255, 255);
+    border: 1px solid #3d251e;
+    transition: 0.2s 0.1s;
+}
+
+.btn-1 span:hover {
+    color: #3d251e;
+    transition: 0.2s 0.1s;
+}
+
+/* 1.hover-filled-slide-down */
+.btn-oak.hover-filled-slide-down::before {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-oak.hover-filled-slide-down:hover::before {
+    height: 0%;
+}
+
+/*--- btn-2 ---*/
+.btn-2::before {
+    background-color: #fff;
+    transition: 0.3s ease-out;
+}
+
+.btn-2 span {
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.2s;
+}
+
+.btn-2 span:hover {
+    color: #3d251e;
+    transition: 0.2s 0.1s;
+}
+
+/* 6. hover-slide-down */
+.btn-oak.hover-slide-down::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0%;
+    width: 100%;
+}
+
+.btn-oak.hover-slide-down:hover::before {
+    height: 100%;
+}
+
+
+
+/*--- btn-3 ---*/
+.btn-3::before {
+    background-color: #fff;
+    transition: 0.3s ease-out;
+}
+
+.btn-3 span {
+    color: #3d251e;
+    border: 1px solid #fff;
+    transition: 0.2s;
+}
+
+.btn-3 span:hover {
+    color: #fff;
+    transition: 0.2s 0.1s;
+}
+
+/* oak button outline */
+
+.btn-outline-oak{
+    text-decoration: none;
+    border: 1px solid #3d251e;
+    background-color: white;
+    color: #3d251e;
+    transition: all 0.25s ease;
+}
+
+
+.btn-outline-oak:hover{
+    background-color: #3d251e;
+    color: white;
+}
+
+.btn-outline-oak.btn-active {
+    background-color: #3d251e;
+    color: white;
+}
+
+.cat-btn-active {
+    background-color: #3d251e;
+    color: white;
+}
+
+
+
+
+
+
+/* scrollbar */
+
+
+/* scrollbar styling */
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #EDEDED;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
+
+*::-webkit-scrollbar-thumb:window-inactive {
+    background: #EDEDED;
+}
+
+
+
+
+
+
+
+
+/* About us */
+.aboutHero {
+    min-height: 100vh;
+    background-image: url(../images/testImage/wideBottle.webp);
+    /* mask-image: linear-gradient(to top, transparent 0%, #3d251e 0% 80%, transparent 100%); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Events */
+.eventHero {
+    min-height: 100vh;
+    background-image: url(../images/testImage/happy.webp);
+    /* mask-image: linear-gradient(to top, transparent 0%, #3d251e 0% 80%, transparent 100%); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* contact */
+.contactHero {
+    min-height: 75vh;
+    background-image: url(../images/testImage/contact.jpg);
+    /* mask-image: linear-gradient(to top, transparent 0%, #3d251e 0% 80%, transparent 100%); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogHero{
+    background-color: #3d251e;
+}
+
+
+
+
+
+
+input:focus{
+    outline: none;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid #8e8988 !important;
+}
+
+textarea:focus{
+    outline: none;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    background-color: transparent;
+
+}
+
+
+
+::placeholder {
+    color: #3d251e;
+}
+
+
+.contactForm input{
+    border: none;
+    border-bottom: 1px solid #3d251e;
+    border-radius: 0;
+    background-color: #F8F9FA;
+}
+
+
+
+
+
+
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .w-md-50 {
+        width: 100%;
+    }
+
+
+    .aboutHero {
+        background-image: url(../images/testImage/mobileBottle.webp);
+        justify-content: space-around;
+    }
+
+    .eventHero {
+        background-image: url(../images/testImage/vibe.png);
+        justify-content: space-around;
+    }
+
+    .contactHero {
+        height: 100vh;
+        background-image: url(../images/testImage/contactMobile.png);
+        justify-content: space-around;
+    }
+
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .aboutHero {
+        background-image: url(../images/testImage/mobileBottle.webp);
+    }
+
+    .eventHero {
+        background-image: url(../images/testImage/mobileBottle.webp);
+    }
+
+    .contactHero {
+        background-image: url(../images/testImage/mobileBottle.webp);
+    }
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .aboutHero {
+        background-image: url(../images/testImage/mobileBottle.webp);
+    }
+    .eventHero {
+        background-image: url(../images/testImage/mobileBottle.webp);
+    }
+    .contactHero {
+        background-image: url(../images/testImage/mobileBottle.webp);
+    }
+
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {}
