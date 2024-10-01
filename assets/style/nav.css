@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     transition: background-color 0.4s ease; /* Add transition for smooth background change */
 
 }
